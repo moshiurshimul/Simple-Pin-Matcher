@@ -21,10 +21,11 @@ function clearAll() {
     inputNumberBox.value = '';
 }
 
+
 // Back Button Function
 
 function backBtn() {
     currentNumbers = inputNumberBox.value;
     inputNumberBox.value = currentNumbers.slice(0, -1);
-} 
+}
 
