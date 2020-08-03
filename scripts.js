@@ -1,3 +1,6 @@
+// Hiding Alert Message
+    document.getElementById('pin-match').style.display = 'none';
+    document.getElementById('pin-not-match').style.display = 'none';
 // Generating Pin
 
 document.getElementById('pin-btn').addEventListener('click', function() {
