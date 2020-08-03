@@ -2,8 +2,6 @@
 
 document.getElementById('pin-btn').addEventListener('click', function() {
     let fourDigitPin = Math.floor(1000 + Math.random() * 9000);
-    console.log(fourDigitPin);
-
     document.getElementById('auto-pin').value = fourDigitPin;
 });
 
@@ -28,4 +26,8 @@ function backBtn() {
     currentNumbers = inputNumberBox.value;
     inputNumberBox.value = currentNumbers.slice(0, -1);
 }
+
+// Pin Matching Function 
+
+
 
