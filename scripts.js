@@ -5,4 +5,6 @@ document.getElementById('pin-btn').addEventListener('click', function() {
     console.log(fourDigitPin);
 
     document.getElementById('auto-pin').value = fourDigitPin;
-})
+});
+
+// 
