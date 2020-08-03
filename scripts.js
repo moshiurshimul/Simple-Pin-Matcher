@@ -42,5 +42,11 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     if (inputNumberBox.value.length != 4 ) {
         alert('Pin must be 4 Digit');
     }
+    if (generatedPin == inputNumberBox.value) {
+        document.getElementById('pin-match').style.display = 'block';
+    }
+    if (generatedPin != inputNumberBox.value) {
+        document.getElementById('pin-not-match').style.display = 'block';
+    }
 })
 
