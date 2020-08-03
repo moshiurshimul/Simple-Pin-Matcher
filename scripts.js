@@ -29,5 +29,15 @@ function backBtn() {
 
 // Pin Matching Function 
 
+document.getElementById('submitBtn').addEventListener('click', function() {
+    let generatedPin = document.getElementById('auto-pin').value
 
+    if (generatedPin == "") {
+        alert('Please Generate a Pin First.');
+    } 
+    
+    if (inputNumberBox.value.length != 4 ) {
+        alert('Pin must be 4 Digit');
+    }
+})
 
