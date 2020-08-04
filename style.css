@@ -32,6 +32,12 @@ body {
     box-shadow: none;
 }
 
+.button:hover {
+    background: lightyellow;
+    color: gray;
+    font-weight: bold;
+}
+
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
