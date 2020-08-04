@@ -32,10 +32,12 @@ document.getElementById('submitBtn').addEventListener('click', function() {
     let generatedPin = document.getElementById('auto-pin').value;
 
     if (generatedPin == "") {
+        inputNumberBox.value = '';
         return alert('Please Generate a Pin First.');
     }
     
     if (inputNumberBox.value.length != 4 ) {
+        inputNumberBox.value = '';
         return alert('Pin must be 4 Digit');
 
     }
